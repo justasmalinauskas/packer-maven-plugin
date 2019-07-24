@@ -9,9 +9,9 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>        
-        <packr.version>2.0</packr.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>        
+        <packr.version>2.1</packr.version>
     </properties>
     
     <build>
@@ -57,7 +57,7 @@
             <type>jar</type>
         </dependency>
         <dependency>
-            <groupId>com.badlogicgames.packr</groupId>
+            <groupId>com.bladecoder.packr</groupId>
             <artifactId>packr</artifactId>
             <version>${packr.version}</version>
             <type>jar</type>
